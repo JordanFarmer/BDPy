@@ -1,4 +1,4 @@
-sales = {'iphone6': 500, 'iphone6+': 600, 'iphone8': 400, 'iphone8+': 300, 'watch3': 200}
+sales = {'iphone6': 490, 'iphone6+': 650, 'iphone8': 400, 'iphone8+': 300, 'watch3': 200}
 print sales['iphone6'], sales['iphone8']
 # print sales['ucom']
 print sales.get('ucom'), sales.get('iphone8')
