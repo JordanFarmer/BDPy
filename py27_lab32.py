@@ -1,0 +1,6 @@
+range1 = range(20)
+print(type(range1), len(range1), range1)
+range2 = range(5, 20)
+print(type(range2), len(range2), range2)
+range3 = range(5, 210, 3)
+print(type(range3), len(range3), range3)
