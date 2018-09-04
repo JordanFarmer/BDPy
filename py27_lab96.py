@@ -13,7 +13,7 @@ for i in range(100):
     for e in employees:
         connection1.execute(sql_insert_dml, (e['NAME'], e['Age'], e['DEPT'], e['ADDR']))
         # connection1.commit()
-    #connection1.commit()
+    # connection1.commit()
 connection1.commit() # 0.10
 print ("total --%s seconds"%(time.time()-start_time))
 connection1.close()
